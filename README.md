@@ -1,8 +1,8 @@
 # CampuSoftPrueba
 
 *Prerequisitos
-  - Instalar Wamp o cualquier servicio de php y mysql
-  - Instalar git
+  - Wamp o cualquier servicio de php y mysql
+  - Git
 
 *Para ejecutar localmente
 
