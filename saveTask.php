@@ -35,6 +35,7 @@ if(isset($_POST['saveTask'])){
         $_SESSION['message_type']='success';
 
     header("Location:index.php");
+    exit();
         
     }
     else{
@@ -42,6 +43,7 @@ if(isset($_POST['saveTask'])){
         $_SESSION['message']='Ya existe registro';
         $_SESSION['message_type']='danger';
         header("Location:index.php");
+        exit();
 
     }
 }
